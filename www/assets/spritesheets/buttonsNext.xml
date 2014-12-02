@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:5b6a8a30dffa35a80a9b14ec8c7789fe:6d861b7b6d9fe92ebb6d29403d42d027:7eeefb1640c2cf408dff80516c4d44c9$ -->
+<TextureAtlas imagePath="buttonsNext.png">
+    <SubTexture name="proximo" x="2" y="2" width="150" height="58"/>
+    <SubTexture name="proximoSelecionado" x="154" y="2" width="150" height="58"/>
+</TextureAtlas>

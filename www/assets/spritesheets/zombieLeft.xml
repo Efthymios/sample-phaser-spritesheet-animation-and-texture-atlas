@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:038b8823c624e5630352639e13addfbe:b82e41d5d0d910d20c90724d317a9a34:a978f464e58908894218460035ad9e42$ -->
+<TextureAtlas imagePath="zombieLeft.png">
+    <SubTexture name="zombie-left-0" x="2" y="2" width="100" height="168"/>
+    <SubTexture name="zombie-left-1" x="2" y="172" width="100" height="168"/>
+    <SubTexture name="zombie-left-2" x="2" y="342" width="100" height="168"/>
+</TextureAtlas>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:1755af1576c178d5da95e6caffe1b1a9:61da8c0c4332d18b55da4987620634e3:a2084e8a2e252f11724e721be397006d$ -->
+<TextureAtlas imagePath="personDown.png">
+    <SubTexture name="person-0" x="2" y="2" width="100" height="161"/>
+    <SubTexture name="person-1" x="2" y="165" width="100" height="161"/>
+    <SubTexture name="person-2" x="2" y="328" width="100" height="161"/>
+    <SubTexture name="person-3" x="2" y="491" width="100" height="161"/>
+    <SubTexture name="person-4" x="2" y="654" width="100" height="161"/>
+    <SubTexture name="person-5" x="2" y="817" width="100" height="161"/>
+</TextureAtlas>
