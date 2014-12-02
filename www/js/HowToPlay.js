@@ -23,7 +23,7 @@
             }, 500, Phaser.Easing.Linear.None, true, 0, 0,
             false);
         this.fadeout.onComplete.add(function() {
-            this.game.state.start('menu', Menu);
+            this.game.state.start('menu');
         }, this);
     };
 
@@ -36,7 +36,7 @@
         } else if (this.countFrames == 2) {
             this.spriteHowToPlayScene = this.game.add.sprite(300, 100, 'howToPlay', 2);
         } else if (this.countFrames == 3) {
-            this.game.state.start('menu', Menu);
+            this.game.state.start('menu');
         }
     };
 

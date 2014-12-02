@@ -7,22 +7,18 @@
 
         var x, y;
 
-        if (typeof zombie === 'undefined') {
+        if (person) {
+            x = person.x;
+            y = person.y;
+        } else {
             var pos = this.rand();
             x = pos.x;
             y = pos.y;
-        } else {
-            x = person.x;
-            y = person.y;
         }
 
         Phaser.Sprite.call(this, state.game, x, y, (x < 0 ? 'zombieRight' : 'zombieLeft'));
 
         this.name = 'zombie ' + (x < 0 ? 'right' : 'left') + ' - ' + (++Zombie.id);
-
-        // this.spriteSheetZombie = this.createSprite(x);
-        // this.spriteZombie = this.game.add.sprite(x, y, this.spriteSheetZombie);
-        this.z = 0;
 
         this.animations.add('zDown').play(7, true);
 
@@ -33,22 +29,16 @@
         this.inputEnabled = true;
         this.events.onInputDown.add(this.killZombie, this);
 
-        if (person) {
-            this.body.velocity.x = person.body.velocity.x;
-        } else {
-            if (x < 0) {
-                this.body.velocity.x = this.game.rnd.integerInRange(10, 50);
-                this.body.velocity.y = 0;
-            } else {
-                this.body.velocity.x = -this.game.rnd.integerInRange(10, 50);
-                this.body.velocity.y = 0;
-            }
-        }
-
-        this.health = this.getHealth();
-
         this.checkWorldBounds = true;
         this.events.onOutOfBounds.add(this.boundOut, this);
+
+        if (x < 0) {
+            this.body.velocity.x = this.game.rnd.integerInRange(10, 50);
+            this.body.velocity.y = 0;
+        } else {
+            this.body.velocity.x = -this.game.rnd.integerInRange(10, 50);
+            this.body.velocity.y = 0;
+        }
 
     };
 
@@ -64,10 +54,11 @@
     };
 
     Zombie.prototype.killZombie = function () {
-
-        this.body.velocity.x = 0;
-        this.body.velocity.y = 0;
+        this.health--;
+        
         if (this.health <= 0) {
+            this.body.velocity.x = 0;
+            this.body.velocity.y = 0;
             this.game.add.audio('audioZombieDead').play();
             this.inputEnabled = false;
             this.loadTexture('zombieDead');
@@ -76,8 +67,7 @@
                 this.alive = false;
             }, this);
 
-            this.state.amountZombiesDead += 1;
-            this.state.punctuate(1);
+            this.state.punctuate();
 
         } else {
             this.game.add.audio('audioPuchZombie').play()
@@ -93,24 +83,16 @@
         this.y = pos.y;
     };
 
-    Zombie.prototype.getHealth = function() {
-
-        if (this.state.stage > 1) {
-            return 1;
-        } else {
-            return 0;
-        }
-    };
-
     Zombie.prototype.rand = function (wrap) {
         if (wrap) {
-            var x = this.x < 0 ? 650 : -50;
+            var x = this.x < 0 ? 800 : -150;
         } else {
-            var x = this.game.rnd.pick([-50, 650]);
+            var x = this.game.rnd.pick([-150, 800]);
         }
         var r = this.game.rnd.integerInRange(0, 5);
         var y = 162 + (400 - 162) / 5 * r;
         return {x: x, y:y};
     };
+
 
 }(this));

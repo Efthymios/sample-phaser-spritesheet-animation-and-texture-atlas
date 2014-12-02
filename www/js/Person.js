@@ -6,7 +6,10 @@
         this.game = state.game;
 
         var pos = this.rand();
-        Phaser.Sprite.call(this, state.game, pos.x, pos.y, 'personDown');
+        var x = pos.x;
+        var y = pos.y;
+        
+        Phaser.Sprite.call(this, state.game, x, y, 'personDown');
 
         this.name = 'person ' + (pos.x < 0 ? 'right': 'left') + ' - ' + (++Person.id);
         this.animations.add('personWalkDown').play(10, true);
@@ -16,9 +19,8 @@
 
         this.checkWorldBounds = true;
         this.events.onOutOfBounds.add(this.boundOut, this);
-        // this.block = false;
 
-        if (pos.x < 0) {
+        if (x < 0) {
             this.body.velocity.x = this.game.rnd.integerInRange(10, 30);
             this.body.velocity.y = 0;
         } else {
@@ -38,24 +40,18 @@
         this.y = pos.y;
     };
 
-    Person.prototype.killBy = function(zombie) {
-        // zombie.kill();
-        // zombie.exists = false;
-        var vx = zombie.body.velocity.x;
-        zombie.body.velocity.x = 0;
+    Person.prototype.killPerson = function(zombie) {
         zombie.exists = false;
 
         this.body.velocity.x = 0;
 
-        this.state.amountPeople -= 1;
-        this.state.amountPeopleMethod(this.state.amountPeople);
+        this.state.amountPeopleMethod(-1);
 
         this.loadTexture('zombieBitePerson');
         this.animations.add('zBitePerson')
         .play(4, false, true)
         .onComplete.add(function() {
             zombie.exists = true;
-            zombie.body.velocity.x = vx;
             this.state.initZombies(this);
         }, this);
     };

@@ -54,7 +54,7 @@
             alpha: 0
         }, 500, Phaser.Easing.Linear.None, true, 0, 0, false)
         .onComplete.add(function() {
-            this.game.state.start('menu', Menu);
+            this.game.state.start('menu');
         }, this);
     };
 

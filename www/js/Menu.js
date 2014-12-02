@@ -38,21 +38,21 @@
     Menu.prototype.play = function() {
         this.fadeOut()
             .onComplete.add(function() {
-                this.game.state.start('game', Game);
+                this.game.state.start('game');
             }, this);
     };
 
     Menu.prototype.howToPlay = function() {
         this.fadeOut()
             .onComplete.add(function() {
-                this.game.state.start('howtoplay', HowToPlay);
+                this.game.state.start('howtoplay');
             }, this);
     };
 
     Menu.prototype.highScores = function() {
         this.fadeOut()
             .onComplete.add(function() {
-                this.game.state.start('gameover', GameOver);
+                this.game.state.start('gameover');
             }, this);
     };
 
