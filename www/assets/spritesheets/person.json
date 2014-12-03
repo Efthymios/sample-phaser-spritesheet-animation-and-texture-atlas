@@ -1,0 +1,102 @@
+{"frames": [
+
+{
+	"filename": "bite-0.png",
+	"frame": {"x":2,"y":2,"w":100,"h":168},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":168},
+	"sourceSize": {"w":100,"h":168},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "bite-1.png",
+	"frame": {"x":2,"y":172,"w":100,"h":168},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":168},
+	"sourceSize": {"w":100,"h":168},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "bite-2.png",
+	"frame": {"x":2,"y":342,"w":100,"h":168},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":168},
+	"sourceSize": {"w":100,"h":168},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "bite-3.png",
+	"frame": {"x":2,"y":512,"w":100,"h":168},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":168},
+	"sourceSize": {"w":100,"h":168},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "person-0.png",
+	"frame": {"x":2,"y":682,"w":100,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":161},
+	"sourceSize": {"w":100,"h":161},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "person-1.png",
+	"frame": {"x":2,"y":845,"w":100,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":161},
+	"sourceSize": {"w":100,"h":161},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "person-2.png",
+	"frame": {"x":2,"y":1008,"w":100,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":161},
+	"sourceSize": {"w":100,"h":161},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "person-3.png",
+	"frame": {"x":2,"y":1171,"w":100,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":161},
+	"sourceSize": {"w":100,"h":161},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "person-4.png",
+	"frame": {"x":2,"y":1334,"w":100,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":161},
+	"sourceSize": {"w":100,"h":161},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "person-5.png",
+	"frame": {"x":2,"y":1497,"w":100,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":161},
+	"sourceSize": {"w":100,"h":161},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "person.png",
+	"format": "RGBA8888",
+	"size": {"w":104,"h":1660},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9ab3a79715dc1c653b027c754856c0b7:9063aed05081c2419db46cd529ffd9d1:0f05216b91dca4a5cb4ffec69e53abd2$"
+}
+}

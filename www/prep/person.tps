@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>3.5.3</string>
         <key>fileName</key>
-        <string>C:/Users/cliu15/Workspace/Game/samples/phaser-atlas-sample/www/prep/zombieLeft.tps</string>
+        <string>C:/Users/cliu15/Workspace/Game/samples/phaser-atlas-sample/www/prep/person.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -36,9 +36,9 @@
         <key>dpi</key>
         <uint>72</uint>
         <key>dataFormat</key>
-        <string>sparrow</string>
+        <string>json-array</string>
         <key>textureFileName</key>
-        <filename>../assets/spritesheets/zombieLeft.png</filename>
+        <filename>../assets/spritesheets/person.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -145,7 +145,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../assets/spritesheets/zombieLeft.xml</filename>
+                <filename>../assets/spritesheets/person.json</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -188,7 +188,7 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>zombieLeft</filename>
+            <filename>person</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

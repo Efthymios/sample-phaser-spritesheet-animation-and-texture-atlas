@@ -5,7 +5,7 @@
         this.game = state.game;
         this.state = state;
 
-        var x, y;
+        var x, y, animation;
 
         if (person) {
             x = person.x;
@@ -16,11 +16,34 @@
             y = pos.y;
         }
 
-        Phaser.Sprite.call(this, state.game, x, y, (x < 0 ? 'zombieRight' : 'zombieLeft'));
+        if (x < 0) {
+            animation = 'right';
+        } else {
+            animation = 'left';
+        }
 
-        this.name = 'zombie ' + (x < 0 ? 'right' : 'left') + ' - ' + (++Zombie.id);
+        Phaser.Sprite.call(this, state.game, x, y, 'zombie');
 
-        this.animations.add('zDown').play(7, true);
+        this.name = 'zombie ' + animation + ' - ' + (++Zombie.id);
+
+        this.animations.add('left', [
+            'zombie-left-0',
+            'zombie-left-1',
+            'zombie-left-2'
+            ], 7, true, false);
+
+        this.animations.add('right', [
+            'zombie-right-0',
+            'zombie-right-1',
+            'zombie-right-2'
+            ], 7, true, false);
+
+        this.animations.add('dead',
+            Phaser.Animation.generateFrameNames('dead-', 0, 9, '', 0),
+            // === ['dead-0','dead-1','dead-2','dead-3','dead-4','dead-5','dead-6','dead-7','dead-8','dead-9'],
+            7, true, false);
+
+        this.animations.play(animation);
 
         this.game.physics.enable(this, Phaser.Physics.ARCADE);
         this.body.enable = true;
@@ -61,8 +84,7 @@
             this.body.velocity.y = 0;
             this.game.add.audio('audioZombieDead').play();
             this.inputEnabled = false;
-            this.loadTexture('zombieDead');
-            this.animations.add('zDead').play(7, false, true)
+            this.animations.play('dead', null, false, true)
             .onComplete.add(function(){
                 this.alive = false;
             }, this);
@@ -85,9 +107,9 @@
 
     Zombie.prototype.rand = function (wrap) {
         if (wrap) {
-            var x = this.x < 0 ? 800 : -150;
+            var x = this.x < 0 ? 800 : -100;
         } else {
-            var x = this.game.rnd.pick([-150, 800]);
+            var x = this.game.rnd.pick([-100, 800]);
         }
         var r = this.game.rnd.integerInRange(0, 5);
         var y = 162 + (400 - 162) / 5 * r;

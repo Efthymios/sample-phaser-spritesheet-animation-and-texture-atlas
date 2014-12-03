@@ -48,14 +48,11 @@
             fill: '#ffffff',
             align: 'right'
         });
-//
-//        this.game.time.events.repeat(Phaser.Timer.SECOND * 1, 5, this.initPeople, this);
-//        this.game.time.events.repeat(Phaser.Timer.SECOND * 1, 10, this.initZombies, this);
     };
 
     Game.prototype.update = function() {
         this.hit();
-        if (this.gameOver(this.amountPeople)) {
+        if (this.gameOver()) {
             return;
         }
         this.updateRound();
