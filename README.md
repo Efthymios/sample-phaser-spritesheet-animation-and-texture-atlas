@@ -1,9 +1,30 @@
 # Phaser Texture Atlas Sample
 
+### Desclaimer
 See [LICENSE.md]() for license terms and conditions.
 
 This sample is used to show the usage of texture atlas in Phaser engine with 
-Intel(R) XDK. The assets and code are created from [Zombie Attack](https://github.com/jucimarjr/html5games/tree/master/phaser/zombie_attack).
+Intel(R) XDK. The assets and code are created from [Zombie Attack](https://github.com/jucimarjr/html5games/tree/master/phaser/zombie_attack) by Jucimar Junior.
+
+### Application Files
+* assets/
+* audios/
+* index.html
+* js/
+  * FilePaths.js
+  * Game.js
+  * GameOver.js
+  * HowToPlay.js
+  * Menu.js
+  * Person.js
+  * Preload.js
+  * Splash.js
+  * Zombie.js
+  * app.js
+* lib/
+* prep/
+
+### Overview
 
 `www/js/app.js` is the entrance of the game which defines and bootstrap following scenarios (or states):
 * [Preload](www/js/Preload.js): load assets for the game
@@ -14,8 +35,12 @@ Intel(R) XDK. The assets and code are created from [Zombie Attack](https://githu
 * [Credits](www/js/Credits.js): display credits for the authors
 * [GameOver](www/js/GameOver.js): display high scores
 
+### Game Asset Manager
+Game Asset Manager (GAM) is a tool for previewing and creating code snippets for various assets commonly used in game projects. By creating or importing a game project in XDK, you will find GAM panel on the left side of "DEVELOP" tab.
+With Game Asset Manager, you can generate code snippet to preload, create sprite and render animations from texture atlas.
+
 ### Preload Texture Atlas
-Texture atlas is similar to spritesheet in Phaser, but can contain sprites (atlas) of different sizes. The definition of sprites is stored in .xml or .json file. Phaser engine accepts three formats of texture atlas definition: `XML`, `JSONHash` and `JSONArray`. All the formats can be created from tools like [TexturePacker](https://www.codeandweb.com/texturepacker). `www/prep` contains original TexturePacker projects and images.
+The definition of sprites is stored in .xml or .json file. Phaser engine accepts three formats of texture atlas definition: `XML`, `JSONHash` and `JSONArray`. All the formats can be created from tools like [TexturePacker](https://www.codeandweb.com/texturepacker). `www/prep` contains original TexturePacker projects and images.
 
 You can use [`Phaser.Loader.atlas (key, textureURL, atlasURL, atlasData, format)`](http://docs.phaser.io/Phaser.Loader.html#atlas) to preload all kinds of texture atlas by specifying `format` argument. For example, to load `assets/spritesheets/zombie.xml` use following code:
 
@@ -56,21 +81,3 @@ See `www/js/Person.js` and `www/js/Zombie.js` for detailed usage of animations.
 # Intel(R) XDK
 This sample is part of the Intel(R) XDK. 
 Download the Intel XDK at http://software.intel.com/en-us/html5.
-
-# Application Files
-* assets/
-* audios/
-* index.html
-* js/
-  * FilePaths.js
-  * Game.js
-  * GameOver.js
-  * HowToPlay.js
-  * Menu.js
-  * Person.js
-  * Preload.js
-  * Splash.js
-  * Zombie.js
-  * app.js
-* lib/
-* prep/
