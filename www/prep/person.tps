@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>json-array</string>
         <key>textureFileName</key>
-        <filename>../assets/spritesheets/person.png</filename>
+        <filename>../asset/spritesheets/person.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -145,7 +145,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../assets/spritesheets/person.json</filename>
+                <filename>../asset/spritesheets/person.json</filename>
             </struct>
         </map>
         <key>multiPack</key>

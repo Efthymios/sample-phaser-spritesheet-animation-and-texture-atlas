@@ -1,14 +1,14 @@
 /**
  * Splash State
  */
-var splashGroupImage = 'assets/screenshots/SplashTeam_800-600.png';
-var SplashGameImage = 'assets/screenshots/SplashGame_800-600.png';
+var splashGroupImage = 'asset/screenshots/SplashTeam_800-600.png';
+var SplashGameImage = 'asset/screenshots/SplashGame_800-600.png';
 
 /**
  * Menu State
  */
 // Background
-var screenMenu = 'assets/screenshots/MenuZombie.png';
+var screenMenu = 'asset/screenshots/MenuZombie.png';
 
 // Button status
 var btPlay = 'bt_play.png';
@@ -24,42 +24,42 @@ var btCreditsSelected = 'bt_credits_ativo.png';
  * Game State
  */
 // Background
-var imageCenario = 'assets/cenario.png';
+var imageCenario = 'asset/cenario.png';
 
 // Menu Buttons
-var spriteSheetsImageButtons = 'assets/spritesheets/buttons.png';
-var spriteSheetsJsonButtons = 'assets/spritesheets/buttons.json';
-var spriteRound = 'assets/round.png';
-var spriteScore = 'assets/score.png';
-var spriteTarget = 'assets/target.png';
-var amountPeopleImage = 'assets/amountPeople.png';
+var spriteSheetsImageButtons = 'asset/spritesheets/buttons.png';
+var spriteSheetsJsonButtons = 'asset/spritesheets/buttons.json';
+var spriteRound = 'asset/round.png';
+var spriteScore = 'asset/score.png';
+var spriteTarget = 'asset/target.png';
+var amountPeopleImage = 'asset/amountPeople.png';
 
 // Zombies
-var spriteSheetsImageZombie = 'assets/spritesheets/zombie.png';
-var spriteSheetsXmlZombie = 'assets/spritesheets/zombie.xml';
+var spriteSheetsImageZombie = 'asset/spritesheets/zombie.png';
+var spriteSheetsXmlZombie = 'asset/spritesheets/zombie.xml';
 
 // Person
-var spriteSheetsImagePerson = 'assets/spritesheets/person.png';
-var spriteSheetsJSONPerson = 'assets/spritesheets/person.json';
+var spriteSheetsImagePerson = 'asset/spritesheets/person.png';
+var spriteSheetsJSONPerson = 'asset/spritesheets/person.json';
 
 /**
  * GameOver State
  */
-var gameOverScreen = 'assets/screenshots/GameOver.png';
+var gameOverScreen = 'asset/screenshots/GameOver.png';
 
 /**
  * HowToPlay State
  */
-var imageCenarioBlack = 'assets/screenshots/CenarioBlack.png';
-var spriteSheetsImageHowToPlay = 'assets/spritesheets/howToPlay.png';
-var spriteSheetsXmlHowToPlay = 'assets/spritesheets/howToPlay.xml';
-var btImageProximoXml = 'assets/spritesheets/buttonsNext.xml';
-var btImageProximoImage = 'assets/spritesheets/buttonsNext.png';
+var imageCenarioBlack = 'asset/screenshots/CenarioBlack.png';
+var spriteSheetsImageHowToPlay = 'asset/spritesheets/howToPlay.png';
+var spriteSheetsXmlHowToPlay = 'asset/spritesheets/howToPlay.xml';
+var btImageProximoXml = 'asset/spritesheets/buttonsNext.xml';
+var btImageProximoImage = 'asset/spritesheets/buttonsNext.png';
 
 /**
  * Credits State
  */
-var splashCredits = 'assets/screenshots/Credits.png';
+var splashCredits = 'asset/screenshots/Credits.png';
 
 /**
  * Common

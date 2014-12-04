@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>sparrow</string>
         <key>textureFileName</key>
-        <filename>../assets/spritesheets/zombie.png</filename>
+        <filename>../asset/spritesheets/zombie.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -145,7 +145,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../assets/spritesheets/zombie.xml</filename>
+                <filename>../asset/spritesheets/zombie.xml</filename>
             </struct>
         </map>
         <key>multiPack</key>

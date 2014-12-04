@@ -7,7 +7,7 @@ This sample is used to show the usage of texture atlas in Phaser engine with
 Intel(R) XDK. The assets and code are created from [Zombie Attack](https://github.com/jucimarjr/html5games/tree/master/phaser/zombie_attack) by Jucimar Junior.
 
 ### Application Files
-* assets/
+* asset/
 * audios/
 * index.html
 * js/
@@ -42,10 +42,10 @@ With Game Asset Manager, you can generate code snippet to preload, create sprite
 ### Preload Texture Atlas
 The definition of sprites is stored in .xml or .json file. Phaser engine accepts three formats of texture atlas definition: `XML`, `JSONHash` and `JSONArray`. All the formats can be created from tools like [TexturePacker](https://www.codeandweb.com/texturepacker). `www/prep` contains original TexturePacker projects and images.
 
-You can use [`Phaser.Loader.atlas (key, textureURL, atlasURL, atlasData, format)`](http://docs.phaser.io/Phaser.Loader.html#atlas) to preload all kinds of texture atlas by specifying `format` argument. For example, to load `assets/spritesheets/zombie.xml` use following code:
+You can use [`Phaser.Loader.atlas (key, textureURL, atlasURL, atlasData, format)`](http://docs.phaser.io/Phaser.Loader.html#atlas) to preload all kinds of texture atlas by specifying `format` argument. For example, to load `asset/spritesheets/zombie.xml` use following code:
 
 ```
-this.game.loader.atlas('zombie', 'assets/spritesheets/zombie.png', 'assets/spritesheets/zombie.xml', null, Phaser.Loader.TEXTURE_ATLAS_XML_STARLING);
+this.game.loader.atlas('zombie', 'asset/spritesheets/zombie.png', 'asset/spritesheets/zombie.xml', null, Phaser.Loader.TEXTURE_ATLAS_XML_STARLING);
 ```
 
 Or instead, you can use `Phaser.Loader.atlasXML`, `Phaser.Loader.atlasJSONHash` and `JSONArray` to load definitions in XML, JSONHash and JSONArray format separately. See `www/js/Preload.js` for the usage of preloading of texture atlas.

@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>sparrow</string>
         <key>textureFileName</key>
-        <filename>../assets/spritesheets/howToPlay.png</filename>
+        <filename>../asset/spritesheets/howToPlay.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -145,7 +145,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../assets/spritesheets/howToPlay.xml</filename>
+                <filename>../asset/spritesheets/howToPlay.xml</filename>
             </struct>
         </map>
         <key>multiPack</key>

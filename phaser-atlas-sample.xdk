@@ -30,7 +30,7 @@
       }
     ],
     "serviceMethods": [],
-    "gameAssetDirectory": "assets",
+    "gameAssetDirectory": "asset",
     "gameMetadata": {
       "gameEngineName": "phaser",
       "gameEngineVersion": "2.1.1"
