@@ -78,13 +78,14 @@
     };
 
     Person.prototype.rand = function (wrap) {
+        var x, y, r;
         if (wrap) {
-            var x = this.x < 0 ? 650 : -50;
+            x = this.x < 0 ? 650 : -50;
         } else {
-            var x = this.game.rnd.pick([-50, 650]);
+            x = this.game.rnd.pick([-50, 650]);
         }
-        var r = this.game.rnd.integerInRange(0, 5);
-        var y = 162 + (400 - 162) / 5 * r;
+        r = this.game.rnd.integerInRange(0, 5);
+        y = 162 + (400 - 162) / 5 * r;
         return {x: x, y:y};
     };
 

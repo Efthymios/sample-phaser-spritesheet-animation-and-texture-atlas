@@ -107,12 +107,13 @@
     };
     
     Game.prototype.collisionHandler = function(obj1, obj2) {
+        var person, zombie;
         if (obj1 instanceof Person && obj2 instanceof Zombie) {
-            var person = obj1;
-            var zombie = obj2;
+            person = obj1;
+            zombie = obj2;
         } else if (obj1 instanceof Zombie && obj2 instanceof Person) {
-            var person = obj2;
-            var zombie = obj1;
+            person = obj2;
+            zombie = obj1;
         } else {
             return;
         }

@@ -104,7 +104,7 @@
                 this.health -= 1;
             }, this);
         }
-    }
+    };
 
     Zombie.prototype.boundOut = function(zombie) {
         var pos = this.rand(true);
@@ -113,13 +113,14 @@
     };
 
     Zombie.prototype.rand = function (wrap) {
+        var x, y, r;
         if (wrap) {
-            var x = this.x < 0 ? 800 : -100;
+            x = this.x < 0 ? 800 : -100;
         } else {
-            var x = this.game.rnd.pick([-100, 800]);
+            x = this.game.rnd.pick([-100, 800]);
         }
-        var r = this.game.rnd.integerInRange(0, 5);
-        var y = 162 + (400 - 162) / 5 * r;
+        r = this.game.rnd.integerInRange(0, 5);
+        y = 162 + (400 - 162) / 5 * r;
         return {x: x, y:y};
     };
 
