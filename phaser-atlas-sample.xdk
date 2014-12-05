@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "9e2920e8-6f77-48e6-9cd2-8d37b46e3a7f",
-      "lastModifiedDate": 1417162864709,
+      "lastModifiedDate": 1417783817841,
       "creationDate": 1417162864665
     },
     "sourceDirectory": "www",
@@ -68,8 +68,8 @@
           "Orientation": "landscape"
         },
         "isActive_": true,
-        "appName_": "phaser-atlas-sample",
-        "appID_": "xdk.intel.phaser.js.project",
+        "appName_": "Zombie Attack",
+        "appID_": "demo.phaserAtlasSample",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -79,7 +79,7 @@
         "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
         "appVersion_": "0.0.1",
-        "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser.",
+        "appDescription_": "A sample game based on Phaser game engine to show the usage of atlas",
         "appAuthor_": "",
         "appVersionCode_": "1"
       },
@@ -95,8 +95,8 @@
           "Orientation": "landscape"
         },
         "isActive_": true,
-        "appName_": "phaser-atlas-sample",
-        "appID_": "xdk.intel.phaser.js.project",
+        "appName_": "Zombie Attack",
+        "appID_": "demo.phaserAtlasSample",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -106,7 +106,7 @@
         "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
         "appVersion_": "0.0.1",
-        "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser.",
+        "appDescription_": "A sample game based on Phaser game engine to show the usage of atlas",
         "appAuthor_": "",
         "appVersionCode_": "1"
       },
@@ -121,8 +121,8 @@
           "Orientation": "landscape"
         },
         "isActive_": true,
-        "appName_": "phaser-atlas-sample",
-        "appID_": "xdk.intel.phaser.js.project",
+        "appName_": "Zombie Attack",
+        "appID_": "demo.phaserAtlasSample",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -132,7 +132,7 @@
         "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
         "appVersion_": "0.0.1",
-        "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser."
+        "appDescription_": "A sample game based on Phaser game engine to show the usage of atlas"
       },
       "Windows8": {
         "platform_": "windows8",
@@ -145,8 +145,8 @@
           "Orientation": "landscape"
         },
         "isActive_": true,
-        "appName_": "phaser-atlas-sample",
-        "appID_": "xdk.intel.phaser.js.project",
+        "appName_": "Zombie Attack",
+        "appID_": "demo.phaserAtlasSample",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -156,7 +156,7 @@
         "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
         "appVersion_": "0.0.0.1",
-        "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser."
+        "appDescription_": "A sample game based on Phaser game engine to show the usage of atlas"
       },
       "WindowsPhone8": {
         "platform_": "wp8",
