@@ -11,20 +11,20 @@
         
         /**
         //
-        // Intel XDK had generated this code snippet for you
+        // The Intel XDK generated this code snippet for you
         //
-        // To make it work in your project,
-        //   follow the instructions in comments below
+        // To use it in your project, follow the
+        //   instructions in comments below
         //
 
         // This code snippet demonstrates how to load atlas
 
         var game = ... // You know how to get this game object
 
-        // TODO: put the line below to your proload function
+        // TODO: add this line to your proload function
         game.load.atlas('person-', 'asset/spritesheets/person.png', 'asset/spritesheets/person.json');
 
-        // TODO: put below lines into your create function
+        // TODO: add below lines to your create function
         var spriteAnimation = game.add.sprite(200, 200, 'person-');
 
         // Explanation of arguments:
