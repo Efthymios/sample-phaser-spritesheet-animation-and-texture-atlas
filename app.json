@@ -11,5 +11,6 @@
     "abbr": "",
     "relname": "",
     "apppreview": "true",
-    "mobile": "false"
+    "mobile": "false",
+  	"projectTypeName": "com.intel.xdk.projecttype.jsapp"
 }
