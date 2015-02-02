@@ -1,11 +1,11 @@
 {
   "project": {
-    "projectSettingsVersion": "1.1",
+    "projectSettingsVersion": "1.2",
     "creationData": {
       "type": "Demo",
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
-      "projectGuid": "9e2920e8-6f77-48e6-9cd2-8d37b46e3a7f",
+			"projectGuid": "00000000-0000-0000-0000-000000000000",
       "lastModifiedDate": 1417783817841,
       "creationDate": 1417162864665
     },
@@ -76,8 +76,8 @@
         "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
+        "cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
         "appVersion_": "0.0.1",
         "appDescription_": "A sample game based on Phaser game engine to show the usage of atlas",
         "appAuthor_": "",
@@ -103,11 +103,11 @@
         "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
+        "cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
         "appVersion_": "0.0.1",
         "appDescription_": "A sample game based on Phaser game engine to show the usage of atlas",
-        "appAuthor_": "",
+				"appAuthor_": "Intel XDK",
         "appVersionCode_": "1"
       },
       "iOS": {
@@ -129,8 +129,8 @@
         "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
+        "cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
         "appVersion_": "0.0.1",
         "appDescription_": "A sample game based on Phaser game engine to show the usage of atlas"
       },
@@ -153,8 +153,8 @@
         "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
+        "cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
         "appVersion_": "0.0.0.1",
         "appDescription_": "A sample game based on Phaser game engine to show the usage of atlas"
       },
@@ -172,8 +172,8 @@
         "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
+				"cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
         "appVersion_": "1.0.0.0"
       }
     }
