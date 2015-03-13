@@ -1,16 +1,23 @@
 {
-    "reponame": "sample-phaser-spritesheet-animation-and-texture-atlas",
-    "title": "Phaser Texture Atlas Sample",
-    "tooltip": "A sample game based on Phaser to show the usage of atlas",
-    "description": "A sample game based on Phaser game engine to show the usage of atlas",
-    "articleUrl": "",
-    "keywords": ["Phaser", "Game"],
-    "visible": "true",
-    "highlights": ["Phaser", "Game", "Texture Atlas"],
-    "appname": "demo.phaserAtlasSample",
-    "abbr": "",
-    "relname": "",
-    "apppreview": "true",
-    "mobile": "false",
-  	"projectTypeName": "com.intel.xdk.projecttype.jsapp"
+   "keywords" : [
+      "Phaser",
+      "Game"
+   ],
+   "appPreview" : "true",
+   "visible" : "true",
+   "articleUrl" : null,
+   "tooltip" : "A sample game based on Phaser to show the usage of atlas",
+   "highlights" : [
+      "Phaser",
+      "Game",
+      "Texture Atlas"
+   ],
+   "abbr" : "",
+   "relName" : "",
+   "repoName" : "sample-phaser-spritesheet-animation-and-texture-atlas",
+   "appName" : "demo.phaserAtlasSample",
+   "mobile" : "false",
+   "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
+   "title" : "Phaser Texture Atlas Sample",
+   "description" : "A sample game based on Phaser game engine to show the usage of atlas"
 }
