@@ -1,6 +1,6 @@
 # Phaser Texture Atlas Sample
 
-### Desclaimer
+### Disclaimer
 See [LICENSE.md]() for license terms and conditions.
 
 This sample is used to show the usage of texture atlas in Phaser engine with 
@@ -36,7 +36,7 @@ Intel(R) XDK. The assets and code are created from [Zombie Attack](https://githu
 * [GameOver](www/js/GameOver.js): display high scores
 
 ### Game Asset Manager
-Game Asset Manager (GAM) is a tool for previewing and creating code snippets for various assets commonly used in game projects. By creating or importing a game project in XDK, you will find GAM panel on the left side of "DEVELOP" tab.
+Game Asset Manager (GAM) is a tool for previewing and creating code snippets for various assets commonly used in game projects. By creating or importing a game project in Intel XDK, you will find GAM panel on the left side of "DEVELOP" tab.
 With Game Asset Manager, you can generate code snippet to preload, create sprite and render animations from texture atlas.
 
 ### Preload Texture Atlas
