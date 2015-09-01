@@ -33,6 +33,23 @@
         "cordovaPluginsDirectory": "plugins",
         "cordovaPlugins": [
             {
+                "id": "org.apache.cordova.statusbar",
+                "name": "StatusBar",
+                "version": "?",
+                "originType": "cordova.io",
+                "origin": "org.apache.cordova.statusbar",
+                "gitref": "",
+                "paramvals": {},
+                "selectedState": "Included",
+                "dependsOn": [],
+                "topLevel": true,
+                "cordovaVersion": "?",
+                "permissions": {},
+                "description": "Cordova StatusBar Plugin",
+                "data": {},
+                "dependedBy": []
+             },
+            {
                 "id": "cordova-plugin-device",
                 "version": "?",
                 "selectedState": "Included",
@@ -66,10 +83,10 @@
             }
         ],
         "buildConfigurations": {
-            "Android": {
+            "Android-Crosswalk": {
                 "platform_": "android",
-                "runtime_": "Cordova 3.x",
-                "name_": "Android",
+                "runtime_": "Crosswalk with Cordova 3.x",
+                "name_": "Android-Crosswalk",
                 "preferences_": {
                     "android-minSdkVersion": "14",
                     "android-targetSdkVersion": "19",
@@ -99,10 +116,10 @@
                 "appAuthor_": "Intel XDK",
                 "appVersionCode_": "1"
             },
-            "Android-Crosswalk": {
+            "Android": {
                 "platform_": "android",
-                "runtime_": "Crosswalk with Cordova 3.x",
-                "name_": "Android-Crosswalk",
+                "runtime_": "Cordova 3.x",
+                "name_": "Android",
                 "preferences_": {
                     "android-minSdkVersion": "14",
                     "android-targetSdkVersion": "19",
