@@ -17,6 +17,7 @@
    ],
    "appName" : "demo.phaserAtlasSample",
    "visible" : true,
+   "landscape" : true,
    "tooltip" : "A sample game based on Phaser to show the usage of atlas",
    "title" : "Phaser Texture Atlas Sample",
    "abbr" : ""
